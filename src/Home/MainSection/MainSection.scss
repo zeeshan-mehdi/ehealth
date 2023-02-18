@@ -1,0 +1,76 @@
+@import '../../theme/colors.scss';
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 10%;
+    height: 50%;
+}
+
+.mainsection-left{
+    width: 50%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mainsection-right{
+    width: 50%;
+    justify-content:flex-end;
+}
+
+.links{
+    color: $primaryColor;
+    font-weight:bold;
+    font-size: medium;
+}
+
+.button{
+    background-color: $primaryColor;
+    color: white;
+    border: none;
+    font-weight:bold;
+    font-size: medium;
+    height: 50px;
+    width: 200px;
+}
+
+.search-box{
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // border-radius: 10px;
+}
+
+.search-input{
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid white;
+    margin: 0px;
+    padding: 0px;
+    // border-radius: 10px;
+}
+
+
+.search-input:focus{
+    outline: none;
+}
+
+.text-input{
+    border-right: 2px solid black;
+    font-size: medium;
+}
+
+.dropdown-input{
+    border-left: 2px solid black;
+    width: 50%;
+}

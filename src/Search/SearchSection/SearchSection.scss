@@ -1,0 +1,21 @@
+@import '../../theme/colors.scss';
+
+
+.search-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.sr-main-section{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+}
+
+.sr-main-section>span{
+    flex: 2;
+}
+.sr-main-section>div{
+    flex: 6;
+}
+

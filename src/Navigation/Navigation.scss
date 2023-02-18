@@ -1,0 +1,38 @@
+
+@import '../theme/colors.scss';
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 10%;
+}
+
+.left{
+    width: 40%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right{
+    width: 50%;
+}
+
+.links{
+    color: $primaryColor;
+    font-weight:bold;
+    font-size: medium;
+}
+
+.button{
+    background-color: $primaryColor;
+    color: white;
+    border: none;
+    font-weight:bold;
+    font-size: medium;
+    height: 50px;
+    width: 200px;
+}
+

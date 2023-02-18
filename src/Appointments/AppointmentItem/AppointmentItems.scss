@@ -1,0 +1,49 @@
+@import url('../../theme/colors.scss');
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.button{
+    background-color:#2879A6;
+    color: white;
+    border: none;
+    font-weight:bold;
+    font-size: medium;
+    height: 50px;
+    align-self: flex-end;
+   // width: 200px;
+}
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.detail{
+   text-align: start; 
+   width: 100%;
+   height: 100px;
+    //  display: flex;
+    //  flex-direction: column;
+    //  justify-content: space-evenly;
+}
+
+.bottom-section{
+    display: flex;
+}
+
+.bottom-section>span{
+    flex: 3;
+}
+.bottom-section>button{
+    flex: 1;
+}
